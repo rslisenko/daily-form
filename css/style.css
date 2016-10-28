@@ -16,6 +16,9 @@ a {
 	text-decoration: none;
 	color: #ea355a;
 }
+a:hover {
+	color: #3a355a;
+}
 a,
 input[type="submit"],
 input[type="button"],
@@ -122,6 +125,7 @@ textarea {
 	width: 100%;
 }
 .ba-form__sign-btn {
+	position: relative;
 	width: 100%;
 	background-color: #ea355a;
 	box-shadow: 0px 3px 0px 0px #bd1962;
@@ -133,6 +137,13 @@ textarea {
 	padding: 15px 0;
 	text-align: center;
 	color: #FFF;
+}
+.ba-form__sign-btn:hover {
+	background-color: #ea752a;;
+}
+.ba-form__sign-btn:active {
+	box-shadow: 0px 1px 0px 0px #bd1962;
+	top: 2px;
 }
 .ba-form__sign-description {
 	margin-top: 23px;
