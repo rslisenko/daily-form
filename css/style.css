@@ -97,6 +97,7 @@ textarea {
 	font-weight: 700;
 	margin-bottom: 14px;
 	line-height: 1;
+	margin: 0 0 14px 0;
 }
 .ba-form__title:before {
 	content: "";
