@@ -137,9 +137,11 @@ textarea {
 	padding: 15px 0;
 	text-align: center;
 	color: #FFF;
+	outline: none;
 }
 .ba-form__sign-btn:hover {
-	background-color: #ea752a;;
+	background-color: #ea752a;
+	box-shadow: 0px 3px 0px 0px #ea757a;
 }
 .ba-form__sign-btn:active {
 	box-shadow: 0px 1px 0px 0px #bd1962;
